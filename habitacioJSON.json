@@ -1,0 +1,736 @@
+{
+    "hotels": [
+        {
+            "hotelID": 1,
+            "nom": "Lago Garden",
+            "email":"garden@hotmail.com",
+            "telefon":"911019786",
+            "estrelles": 4,
+            "serveis":{
+                "mascotes":["Cans","Moixos"],
+                "gimnas": false,
+                "berenar": true,
+                "sopar": false,
+                "idiomes":["Castella","Catala","Angles","Alema","Rus"],
+                "wifi": true
+            },
+            "otas":["TripAdvisor","Kayak","Trivago","Egencia"],
+            "descripcio":"Este elegante hotel, de estilo morisco, se encuentra a 1,8 km de la playa",
+            "habitacions": [
+                {
+                    "ID": 1,
+                    "numPorta": 101,
+                    "llits": {
+                        "individual": 2,
+                        "doble": 0
+                    },
+                    "serveis": {
+                        "baño": {
+                            "dutxa": true,
+                            "banyera": true,
+                            "wc": true,
+                            "jacuzzi": false
+                        },
+                        "minibar": true,
+                        "vistes al mar": false,
+                        "TV": true,
+                        "aire acondicionado": true,
+                        "insonoritzacio": true,
+                        "caixa forta": true,
+                        "cocina": {
+                            "microones": true,
+                            "frigorifico": false,
+                            "cafetera": true,
+                            "forn": false
+                        },
+                        "preu": [
+                            {
+                                "agregador": 1,
+                                "preuNet": {
+                                    "temporadaBaixa": 45,
+                                    "temporadaAlta": 80,
+                                    "moneda": "€"
+                                },
+                                "comissio": 10,
+                                "agregadorComissio": 35,
+                                "valorTotal": {
+                                    "preuBaixa": 65.25,
+                                    "preuAlta": 116,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 2,
+                                "preuNet": {
+                                    "temporadaBaixa": 45,
+                                    "temporadaAlta": 80,
+                                    "moneda": "€"
+                                },
+                                "comissio": 10,
+                                "agregadorComissio": 25,
+                                "valorTotal": {
+                                    "preuBaixa": 60.75,
+                                    "preuAlta": 108,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 3,
+                                "preuNet": {
+                                    "temporadaBaixa": 45,
+                                    "temporadaAlta": 80,
+                                    "moneda": "€"
+                                },
+                                "comissio": 10,
+                                "agregadorComissio": 40,
+                                "valorTotal": {
+                                    "preuBaixa": 67.5,
+                                    "preuAlta": 120,
+                                    "moneda": "€"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "ID": 2,
+                    "numPorta": 102,
+                    "llits": {
+                        "individual": 0,
+                        "doble": 1
+                    },
+                    "serveis": {
+                        "baño": {
+                            "dutxa": true,
+                            "banyera": false,
+                            "wc": true,
+                            "jacuzzi": false
+                        },
+                        "minibar": true,
+                        "vistes al mar": false,
+                        "TV": true,
+                        "aire acondicionado": true,
+                        "insonoritzacio": false,
+                        "caixa forta": false,
+                        "cocina": {
+                            "microones": false,
+                            "frigorifico": false,
+                            "cafetera": true,
+                            "forn": false
+                        },
+                        "preu": [
+                            {
+                                "agregador": 1,
+                                "preuNet": {
+                                    "temporadaBaixa": 25,
+                                    "temporadaAlta": 45,
+                                    "moneda": "€"
+                                },
+                                "comissio": 10,
+                                "agregadorComissio": 35,
+                                "valorTotal": {
+                                    "preuBaixa": 36.25,
+                                    "preuAlta": 65.25,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 2,
+                                "preuNet": {
+                                    "temporadaBaixa": 25,
+                                    "temporadaAlta": 45,
+                                    "moneda": "€"
+                                },
+                                "comissio": 10,
+                                "agregadorComissio": 25,
+                                "valorTotal": {
+                                    "preuBaixa": 33.75,
+                                    "preuAlta": 60.75,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 3,
+                                "preuNet": {
+                                    "temporadaBaixa": 25,
+                                    "temporadaAlta": 45,
+                                    "moneda": "€"
+                                },
+                                "comissio": 10,
+                                "agregadorComissio": 40,
+                                "valorTotal": {
+                                    "preuBaixa": 37.5,
+                                    "preuAlta": 67.5,
+                                    "moneda": "€"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "ID": 3,
+                    "numPorta": 103,
+                    "llits": {
+                        "individual": 0,
+                        "doble": 2
+                    },
+                    "serveis": {
+                        "baño": {
+                            "dutxa": true,
+                            "banyera": true,
+                            "wc": true,
+                            "jacuzzi": false
+                        },
+                        "minibar": true,
+                        "vistes al mar": false,
+                        "TV": true,
+                        "aire acondicionado": true,
+                        "insonoritzacio": true,
+                        "caixa forta": true,
+                        "cocina": {
+                            "microones": true,
+                            "frigorifico": true,
+                            "cafetera": true,
+                            "forn": true
+                        },
+                        "preu": [
+                            {
+                                "agregador": 1,
+                                "preuNet": {
+                                    "temporadaBaixa": 55,
+                                    "temporadaAlta": 110,
+                                    "moneda": "€"
+                                },
+                                "comissio": 10,
+                                "agregadorComissio": 35,
+                                "valorTotal": {
+                                    "preuBaixa": 79.75,
+                                    "preuAlta": 159.5,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 2,
+                                "preuNet": {
+                                    "temporadaBaixa": 55,
+                                    "temporadaAlta": 110,
+                                    "moneda": "€"
+                                },
+                                "comissio": 10,
+                                "agregadorComissio": 25,
+                                "valorTotal": {
+                                    "preuBaixa": 74.25,
+                                    "preuAlta": 148.5,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 3,
+                                "preuNet": {
+                                    "temporadaBaixa": 55,
+                                    "temporadaAlta": 110,
+                                    "moneda": "€"
+                                },
+                                "comissio": 10,
+                                "agregadorComissio": 40,
+                                "valorTotal": {
+                                    "preuBaixa": 82.5,
+                                    "preuAlta": 165,
+                                    "moneda": "€"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "hotelID": 2,
+            "nom": "Marbel",
+            "email":"marbel@hotmail.com",
+            "telefon":"636679586",
+            "estrelles": 2,
+            "serveis":{
+                "mascotes":[],
+                "gimnas": false,
+                "berenar": true,
+                "sopar": false,
+                "idiomes":["Castella","Angles","Alema"],
+                "wifi": true
+            },
+            "otas":["Opodo"],
+            "descripcio":"Este hotel sencillo y urbano se encuentra a 6 minutos a pie de la playa más cercana",
+            "habitacions": [
+                {
+                    "ID": 1,
+                    "numPorta": 201,
+                    "llits": {
+                        "individual": 1,
+                        "doble": 0
+                    },
+                    "serveis": {
+                        "baño": {
+                            "dutxa": true,
+                            "banyera": true,
+                            "wc": true,
+                            "jacuzzi": false
+                        },
+                        "minibar": false,
+                        "vistes al mar": false,
+                        "TV": true,
+                        "aire acondicionado": true,
+                        "insonoritzacio": false,
+                        "caixa forta": false,
+                        "cocina": {
+                            "microones": false,
+                            "frigorifico": false,
+                            "cafetera": false,
+                            "forn": false
+                        },
+                        "preu": [
+                            {
+                                "agregador": 1,
+                                "preuNet": {
+                                    "temporadaBaixa": 38,
+                                    "temporadaAlta": 54,
+                                    "moneda": "€"
+                                },
+                                "comissio": 15,
+                                "agregadorComissio": 35,
+                                "valorTotal": {
+                                    "preuBaixa": 57,
+                                    "preuAlta": 81,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 2,
+                                "preuNet": {
+                                    "temporadaBaixa": 38,
+                                    "temporadaAlta": 54,
+                                    "moneda": "€"
+                                },
+                                "comissio": 15,
+                                "agregadorComissio": 25,
+                                "valorTotal": {
+                                    "preuBaixa": 53.2,
+                                    "preuAlta": 75.6,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 3,
+                                "preuNet": {
+                                    "temporadaBaixa": 38,
+                                    "temporadaAlta": 54,
+                                    "moneda": "€"
+                                },
+                                "comissio": 15,
+                                "agregadorComissio": 40,
+                                "valorTotal": {
+                                    "preuBaixa": 58.9,
+                                    "preuAlta": 83.7,
+                                    "moneda": "€"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "ID": 2,
+                    "numPorta": 202,
+                    "llits": {
+                        "individual": 0,
+                        "doble": 1
+                    },
+                    "serveis": {
+                        "baño": {
+                            "dutxa": true,
+                            "banyera": true,
+                            "wc": true,
+                            "jacuzzi": false
+                        },
+                        "minibar": false,
+                        "vistes al mar": true,
+                        "TV": true,
+                        "aire acondicionado": true,
+                        "insonoritzacio": false,
+                        "caixa forta": true,
+                        "cocina": {
+                            "microones": false,
+                            "frigorifico": false,
+                            "cafetera": true,
+                            "forn": false
+                        },
+                        "preu": [
+                            {
+                                "agregador": 1,
+                                "preuNet": {
+                                    "temporadaBaixa": 34,
+                                    "temporadaAlta": 60,
+                                    "moneda": "€"
+                                },
+                                "comissio": 15,
+                                "agregadorComissio": 35,
+                                "valorTotal": {
+                                    "preuBaixa": 51,
+                                    "preuAlta": 90,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 2,
+                                "preuNet": {
+                                    "temporadaBaixa": 34,
+                                    "temporadaAlta": 60,
+                                    "moneda": "€"
+                                },
+                                "comissio": 15,
+                                "agregadorComissio": 25,
+                                "valorTotal": {
+                                    "preuBaixa": 47.6,
+                                    "preuAlta": 84,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 3,
+                                "preuNet": {
+                                    "temporadaBaixa": 34,
+                                    "temporadaAlta": 60,
+                                    "moneda": "€"
+                                },
+                                "comissio": 15,
+                                "agregadorComissio": 40,
+                                "valorTotal": {
+                                    "preuBaixa": 52.7,
+                                    "preuAlta": 93,
+                                    "moneda": "€"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "ID": 3,
+                    "numPorta": 203,
+                    "llits": {
+                        "individual": 1,
+                        "doble": 1
+                    },
+                    "serveis": {
+                        "baño": {
+                            "dutxa": true,
+                            "banyera": true,
+                            "wc": true,
+                            "jacuzzi": false
+                        },
+                        "minibar": false,
+                        "vistes al mar": true,
+                        "TV": true,
+                        "aire acondicionado": true,
+                        "insonoritzacio": true,
+                        "caixa forta": true,
+                        "cocina": {
+                            "microones": true,
+                            "frigorifico": false,
+                            "cafetera": true,
+                            "forn": false
+                        },
+                        "preu": [
+                            {
+                                "agregador": 1,
+                                "preuNet": {
+                                    "temporadaBaixa": 42,
+                                    "temporadaAlta": 55,
+                                    "moneda": "€"
+                                },
+                                "comissio": 15,
+                                "agregadorComissio": 35,
+                                "valorTotal": {
+                                    "preuBaixa": 63,
+                                    "preuAlta": 82.5,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 2,
+                                "preuNet": {
+                                    "temporadaBaixa": 42,
+                                    "temporadaAlta": 55,
+                                    "moneda": "€"
+                                },
+                                "comissio": 15,
+                                "agregadorComissio": 25,
+                                "valorTotal": {
+                                    "preuBaixa": 58.8,
+                                    "preuAlta": 77,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 3,
+                                "preuNet": {
+                                    "temporadaBaixa": 42,
+                                    "temporadaAlta": 55,
+                                    "moneda": "€"
+                                },
+                                "comissio": 15,
+                                "agregadorComissio": 40,
+                                "valorTotal": {
+                                    "preuBaixa": 65.1,
+                                    "preuAlta": 85.25,
+                                    "moneda": "€"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "hotelID": 3,
+            "nom": "Serrano Palace",
+            "email":"serrano@hotmail.com",
+            "telefon":"971563350",
+            "estrelles": 5,
+            "serveis":{
+                "mascotes":["Ocells"],
+                "gimnas": true,
+                "berenar": true,
+                "sopar": true,
+                "idiomes":["Castella","Catala","Angles","Alema","Italia","Rus","Chines"],
+                "wifi": true
+            },
+            "otas":["Booking","TripAdvisor","Trivago","Agoda","Venere"],
+            "descripcio":"Este hotel, elegante y moderno presenta habitaciones y suites, señoriales, con una decoración acogedora",
+            "habitacions": [
+                {
+                    "ID": 1,
+                    "numPorta": 301,
+                    "llits": {
+                        "individual": 1,
+                        "doble": 0
+                    },
+                    "serveis": {
+                        "baño": {
+                            "dutxa": false,
+                            "banyera": true,
+                            "wc": true,
+                            "jacuzzi": false
+                        },
+                        "minibar": true,
+                        "vistes al mar": false,
+                        "TV": true,
+                        "aire acondicionado": true,
+                        "insonoritzacio": true,
+                        "caixa forta": false,
+                        "cocina": {
+                            "microones": false,
+                            "frigorifico": false,
+                            "cafetera": true,
+                            "forn": false
+                        },
+                        "preu": [
+                            {
+                                "agregador": 1,
+                                "preuNet": {
+                                    "temporadaBaixa": 60,
+                                    "temporadaAlta": 90,
+                                    "moneda": "€"
+                                },
+                                "comissio": 8,
+                                "agregadorComissio": 35,
+                                "valorTotal": {
+                                    "preuBaixa": 85.8,
+                                    "preuAlta": 128.7,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 2,
+                                "preuNet": {
+                                    "temporadaBaixa": 60,
+                                    "temporadaAlta": 90,
+                                    "moneda": "€"
+                                },
+                                "comissio": 8,
+                                "agregadorComissio": 25,
+                                "valorTotal": {
+                                    "preuBaixa": 79.8,
+                                    "preuAlta": 119.7,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 3,
+                                "preuNet": {
+                                    "temporadaBaixa": 60,
+                                    "temporadaAlta": 90,
+                                    "moneda": "€"
+                                },
+                                "comissio": 8,
+                                "agregadorComissio": 40,
+                                "valorTotal": {
+                                    "preuBaixa": 88.8,
+                                    "preuAlta": 133.2,
+                                    "moneda": "€"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "ID": 2,
+                    "numPorta": 302,
+                    "llits": {
+                        "individual": 0,
+                        "doble": 1
+                    },
+                    "serveis": {
+                        "baño": {
+                            "dutxa": true,
+                            "banyera": false,
+                            "wc": true,
+                            "jacuzzi": false
+                        },
+                        "minibar": true,
+                        "vistes al mar": false,
+                        "TV": true,
+                        "aire acondicionado": true,
+                        "insonoritzacio": true,
+                        "caixa forta": true,
+                        "cocina": {
+                            "microones": true,
+                            "frigorifico": false,
+                            "cafetera": true,
+                            "forn": false
+                        },
+                        "preu": [
+                            {
+                                "agregador": 1,
+                                "preuNet": {
+                                    "temporadaBaixa": 72,
+                                    "temporadaAlta": 105,
+                                    "moneda": "€"
+                                },
+                                "comissio": 8,
+                                "agregadorComissio": 35,
+                                "valorTotal": {
+                                    "preuBaixa": 102.96,
+                                    "preuAlta": 150.15,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 2,
+                                "preuNet": {
+                                    "temporadaBaixa": 72,
+                                    "temporadaAlta": 105,
+                                    "moneda": "€"
+                                },
+                                "comissio": 8,
+                                "agregadorComissio": 25,
+                                "valorTotal": {
+                                    "preuBaixa": 95.76,
+                                    "preuAlta": 139.65,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 3,
+                                "preuNet": {
+                                    "temporadaBaixa": 72,
+                                    "temporadaAlta": 105,
+                                    "moneda": "€"
+                                },
+                                "comissio": 8,
+                                "agregadorComissio": 40,
+                                "valorTotal": {
+                                    "preuBaixa": 106.56,
+                                    "preuAlta": 155.4,
+                                    "moneda": "€"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "ID": 3,
+                    "numPorta": 203,
+                    "llits": {
+                        "individual": 1,
+                        "doble": 2
+                    },
+                    "serveis": {
+                        "baño": {
+                            "dutxa": false,
+                            "banyera": true,
+                            "wc": true,
+                            "jacuzzi": true
+                        },
+                        "minibar": false,
+                        "vistes al mar": false,
+                        "TV": true,
+                        "aire acondicionado": true,
+                        "insonoritzacio": true,
+                        "caixa forta": true,
+                        "cocina": {
+                            "microones": true,
+                            "frigorifico": true,
+                            "cafetera": true,
+                            "forn": true
+                        },
+                        "preu": [
+                            {
+                                "agregador": 1,
+                                "preuNet": {
+                                    "temporadaBaixa": 118,
+                                    "temporadaAlta": 142,
+                                    "moneda": "€"
+                                },
+                                "comissio": 8,
+                                "agregadorComissio": 35,
+                                "valorTotal": {
+                                    "preuBaixa": 168.74,
+                                    "preuAlta": 203,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 2,
+                                "preuNet": {
+                                    "temporadaBaixa": 118,
+                                    "temporadaAlta": 142,
+                                    "moneda": "€"
+                                },
+                                "comissio": 8,
+                                "agregadorComissio": 25,
+                                "valorTotal": {
+                                    "preuBaixa": 156.94,
+                                    "preuAlta": 188.86,
+                                    "moneda": "€"
+                                }
+                            },
+                            {
+                                "agregador": 3,
+                                "preuNet": {
+                                    "temporadaBaixa": 118,
+                                    "temporadaAlta": 142,
+                                    "moneda": "€"
+                                },
+                                "comissio": 8,
+                                "agregadorComissio": 40,
+                                "valorTotal": {
+                                    "preuBaixa": 174.64,
+                                    "preuAlta": 210.16,
+                                    "moneda": "€"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
